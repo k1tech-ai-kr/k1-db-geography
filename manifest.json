@@ -1,0 +1,41 @@
+{
+  "id": "k1-db-geography",
+  "title": "세계·한국 지리(나라 196·산·강·섬)",
+  "description": "나라 196개(한국어 이름·수도·대륙·인구·넓이·화폐·국가 코드)와 한국의 산(높이)·강(길이)·섬(넓이).",
+  "version": "1.0.0",
+  "built": "2026-10-23T20:37:04.276Z",
+  "apps": [
+    "capital-quiz",
+    "geo-quiz"
+  ],
+  "licenses": [
+    "Wikidata — CC0 1.0(퍼블릭 도메인 기증)"
+  ],
+  "tier": "free",
+  "files": [
+    {
+      "path": "data/countries.json",
+      "bytes": 40623,
+      "sha256": "ab03a9b6525a04f6509b3f2118b6e8041263a936241782157d5a2dcea5ce9fd7",
+      "app": true
+    },
+    {
+      "path": "data/korea-mountains.json",
+      "bytes": 7325,
+      "sha256": "c2705feb8c0a594ea85e3f66f0524f19529cade0bbdab80615e814357b327042",
+      "app": true
+    },
+    {
+      "path": "data/korea-rivers.json",
+      "bytes": 487,
+      "sha256": "2df69dcc322fe750e41244e7843dcc3909fa12547bb5d32e19cba6ddcde9ed5c",
+      "app": true
+    },
+    {
+      "path": "data/korea-islands.json",
+      "bytes": 901,
+      "sha256": "c569192d4be7b710a87dbb771a0d703c0a2177999347256abc5d6ad44334db93",
+      "app": true
+    }
+  ]
+}
